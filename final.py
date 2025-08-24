@@ -1,6 +1,6 @@
 from PIL import Image
 import pyperclip
-
+ 
 def genTurtle(image_path, target_lines=400000):
     img = Image.open(image_path).convert("RGB")
     w, h = img.size
