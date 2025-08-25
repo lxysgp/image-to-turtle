@@ -29,3 +29,4 @@ pip install pillow pyperclip
 
 ---
 Copyright: You should not use this code for coursemology.
+---
