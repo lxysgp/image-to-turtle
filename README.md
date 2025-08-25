@@ -28,5 +28,5 @@ pip install pillow pyperclip
 ```
 
 ---
-Copyright: You should not use this code for coursemology.
+Copyright: You CAN use this code for coursemology.
 ---
