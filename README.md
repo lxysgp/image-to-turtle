@@ -25,7 +25,7 @@ Make sure you have **Python 3.8+**.
 
 ```bash
 pip install pillow pyperclip
-
+```
 
 ---
 Copyright: You should not use this code for coursemology.
