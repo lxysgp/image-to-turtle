@@ -97,7 +97,7 @@ def genTurtle(image_path, target=400000):
         pyperclip.copy(code)
         print(f"Clipboard ready! Render size: {w * pixel_size}x{h * pixel_size}, pixel_size = {pixel_size}")
     except Exception as e:
-        print(f\"Couldn't copy to clipboard: {e}\\nStill returning code string.\") 
+        print(f"Couldn't copy to clipboard: {e}\\nStill returning code string.") 
         #error for character not found if wrongly typed
         
 
