@@ -1,6 +1,18 @@
 from PIL import Image
 import pyperclip
 #from math import *
+def print_license():
+    print("Image to Turtle - Convert images into Python Turtle drawing code.")
+    print("Copyright (C) 2025  Li Xinyuan\n")
+    print("This program is free software: you can redistribute it and/or modify")
+    print("it under the terms of the GNU General Public License as published by")
+    print("the Free Software Foundation, either version 3 of the License, or")
+    print("(at your option) any later version.\n")
+    print("This program is distributed in the hope that it will be useful,")
+    print("but WITHOUT ANY WARRANTY; without even the implied warranty of")
+    print("MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the")
+    print("GNU General Public License for more details.\n")
+
 def genTurtle(image_path, target=400000):
     img = Image.open(image_path).convert("RGB")
     w, h = img.size
@@ -104,4 +116,5 @@ def genTurtle(image_path, target=400000):
     return code
 
 if __name__ == '__main__':
+    print_license()
     genTurtle(input('File place: '), target=600000)
